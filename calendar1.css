@@ -1,0 +1,46 @@
+.calendar{
+  display: block;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.pin{
+  display: block;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+body {
+    background-image:url('background.jpg');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+h1 { 
+  color: black;
+  text-align: center;
+  font-family: 'Zapf-Chancery', cursive;
+}
+
+h2 {
+  color: black;
+}
+
+table {
+  display: block;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}

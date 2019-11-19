@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+    	#calendar {
+    		background-image: url('images/snow.gif');
+    		height: 100%;
+    		background-position: center;
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    	}
+
+    	body {
+    		background-image: url('images/background.jpg');
+    		height: 100%;
+    		background-position: center;
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    	}
+    </style>
+    <title>Calendar</title>
+  </head>
+  <body>
+  <body>
+  	<div class="container pt-5">
+  		<center><h3 class="page-header text-white">December 2019</h3></center>
+  		<table class="table table-bordered" id="calendar" style="border: 1px solid black;" >
+		  <thead class="thead-light">
+		    <tr>
+		      <th scope="col"><center>Sun</center></th>
+		      <th scope="col"><center>Mon</center></th>
+		      <th scope="col"><center>Tue</center></th>
+		      <th scope="col"><center>Wed</center></th>
+		      <th scope="col"><center>Thu</center></th>
+		      <th scope="col"><center>Fri</center></th>
+		      <th scope="col"><center>Sat</center></th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr> 
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">1</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">2</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">3</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">4</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">5</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">6</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">7</p></td>
+		    </tr>
+		    <tr>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">8</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">9</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">10</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">11</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">12</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">13</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">14</p></td>
+		    </tr>
+		    <tr>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">15</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">16</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">17</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">18</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">19</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">20</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">21</p></td>
+		    </tr>
+		    <tr>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">22</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">23</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">24</p></td>
+		      <td style="width: 150px; height: 150px; background: linear-gradient(to top left, #ff0000 1%, #ffffff 154%); cursor: pointer;" id="clickaction"><p class="float-right text-white">25</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">26</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">27</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">28</p></td>
+		    </tr>
+		    <tr>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">29</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">30</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-white">31</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-muted">1</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-muted">2</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-muted">3</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-muted">4</p></td>
+		    </tr>
+		    <tr>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-muted">5</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-muted">6</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-muted">7</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-muted">8</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-muted">9</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-muted">10</p></td>
+		      <td style="width: 150px; height: 150px;"><p class="float-right text-muted">11</p></td>
+		    </tr>
+		  </tbody>
+		</table>
+  	</div>
+    
+  	<div class="modal fade" id="aboutchristmas" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title">About Christmas</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <p>Text goes here.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary"><a href="#" class="text-white" style="text-decoration: none;">Next</a></button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		$('#clickaction').click(function(){
+	    		$('#aboutchristmas').modal('show');
+	    	});
+    	});
+    </script>
+  </body>
+</html>

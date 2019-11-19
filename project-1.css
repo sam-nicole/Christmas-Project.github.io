@@ -1,0 +1,19 @@
+.card{
+  display: block;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  width: 800px;
+  height: 500px;
+}
+
+body {
+    background-image:url('snow.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+

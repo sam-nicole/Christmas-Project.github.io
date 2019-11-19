@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>Christmas</title>
+	<link rel="stylesheet" href="assets/bootstrap.min.css">
+	<link rel="stylesheet" href="calendar.css">
+	<script src="assets/jquery-2.1.4.min.js"></script>
+ 	<script src="assets/bootstrap.min.js"></script>
+	<style type="text/css">
+		body {
+		  /* The image used */
+		  background-image: url("background.jpg");
+
+		  /* Full height */
+		  height: 100%;
+
+		  /* Center and scale the image nicely */
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  overflow: hidden;
+		}
+	</style>
+</head>
+
+<body>
+<div style="text-align: center;margin-top: 30vh;">
+	<h1 id="time" style="font-size: 200px;">10</h1>
+	<!-- <button type="button" class="btn btn-danger" style="border-radius: 0px;font-family: 'Zapf-Chancery', cursive;">Start countdown</button> -->
+</div>
+<script type="text/javascript">
+	// $('button').click(function(){
+		var timeleft = 10;
+		var downloadTimer = setInterval(function(){
+		  
+		  timeleft -= 1;
+		  if(timeleft <= 0){
+		    clearInterval(downloadTimer);
+		    // document.getElementById("time").innerHTML = '<span style="font-size: 50px;">Go to next page</span>';
+		    setTimeout(function(){window.location.href="calendar.html";}, 1000);
+		    
+		  }
+		  document.getElementById("time").innerHTML = timeleft;
+		}, 1000);
+	// });
+</script>
+</body>
+</html>
